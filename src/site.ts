@@ -5,14 +5,13 @@ export const GITHUB_USER = 'Julesmbekal'
 export const GITHUB_PROFILE_REPO = GITHUB_USER // dépôt du README de profil (même nom que l'identifiant)
 export const GITHUB_BRANCH = 'main'
 
+// Si GITHUB_USER est renseigné → lien GitHub profil ; les fichiers assets sont servis
+// directement depuis /public via la base Vite (pas via GitHub blob viewer).
 export const ghProfile = (): string => (GITHUB_USER ? `https://github.com/${GITHUB_USER}` : '')
 
-// Si GITHUB_USER est renseigné → lien GitHub ; sinon → fichier local depuis /public (BASE_URL inclus via vite).
-// Place tes fichiers dans public/documents/ et public/video/ pour que les liens locaux fonctionnent.
-export const ghFile = (path: string): string =>
-  GITHUB_USER
-    ? `https://github.com/${GITHUB_USER}/${GITHUB_PROFILE_REPO}/blob/${GITHUB_BRANCH}/${path}`
-    : `/${path}`
+// Retourne un chemin vers un fichier dans public/ — servi par GitHub Pages sous /portfolio/
+// BASE_URL est injecté par Vite à la compilation (/portfolio/ en prod, / en dev).
+export const ghFile = (path: string): string => path
 
 // Coordonnées publiques -----------------------------------------------------------------
 // Le téléphone est masqué par défaut (démarchage / spam). Passer à true pour l'afficher.

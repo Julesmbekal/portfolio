@@ -88,7 +88,7 @@ export const content = {
     aboutTitleAccent: 'business, risques, technique',
     aboutSub: '',
     stats: [
-      { value: '905', label: 'TOEIC / 990 · anglais C1', href: ghFile('documents/TOEIC-Oscar.pdf') },
+      { value: '905', label: 'TOEIC / 990 · anglais C1', href: 'documents/toeic-Oscar.pdf' },
       { value: '4', label: 'Expériences pro', href: '' },
       { value: '100+', label: 'Étudiants sensibilisés OSINT', href: '' },
       { value: '7', label: 'Certifications', href: '' },
@@ -100,7 +100,7 @@ export const content = {
     tags: ['France', 'Alternance 12 mois', 'Stage 6 mois', '3 sem. entreprise / 1 sem. école'],
     langsTitle: 'Langues',
     langs: ['Français — langue maternelle', 'Anglais — C1, TOEIC 905/990'],
-    toeicProof: { label: 'Voir le justificatif TOEIC', href: ghFile('documents/TOEIC-Oscar.pdf') },
+    toeicProof: { label: 'Voir le justificatif TOEIC', href: 'documents/toeic-Oscar.pdf' },
     visionTitle: 'Trois dimensions indissociables',
     vision: [
       { title: 'Business', desc: 'Aligner la sécurité sur les enjeux métier, la conformité et la décision.' },
@@ -155,7 +155,7 @@ export const content = {
           'Sensibilisation et montée en compétences de plus de 100 étudiants sur les enjeux OSINT',
         ],
         skills: ['OSINT', 'IA', 'Docker', 'IAM', 'Monitoring'],
-        link: { label: 'Voir le projet', href: ghFile('video/Sentinel.mp4') },
+        link: { label: 'Voir le projet', href: 'video/Sentinel.mp4' },
       },
       {
         period: 'Août 2024 – Janvier 2025',
@@ -202,7 +202,7 @@ export const content = {
         desc: 'Plateforme technologique de suivi agricole combinant capteurs sol, imagerie drone et détection IA de maladies/nuisibles, présenté au salon ETSIA.',
         tech: ['IoT', 'Drones', 'IA', 'Vision par ordinateur'],
         color: '#8B5CF6',
-        link: { label: 'Voir le projet', href: ghFile('documents/WI_grow.pdf') },
+        link: { label: 'Voir le projet', href: 'documents/WI_grow (1).pdf' },
       },
       {
         tag: 'Infra',
@@ -312,7 +312,7 @@ export const content = {
     aboutTitleAccent: 'business, risk, technology',
     aboutSub: '',
     stats: [
-      { value: '905', label: 'TOEIC / 990 · English C1', href: ghFile('documents/TOEIC-Oscar.pdf') },
+      { value: '905', label: 'TOEIC / 990 · English C1', href: 'documents/toeic-Oscar.pdf' },
       { value: '4', label: 'Professional roles', href: '' },
       { value: '100+', label: 'Students trained on OSINT', href: '' },
       { value: '7', label: 'Certifications', href: '' },
@@ -324,7 +324,7 @@ export const content = {
     tags: ['France', '12-month apprenticeship', '6-month internship', '3 weeks company / 1 week school'],
     langsTitle: 'Languages',
     langs: ['French — native', 'English — C1, TOEIC 905/990'],
-    toeicProof: { label: 'View TOEIC score report', href: ghFile('documents/TOEIC-Oscar.pdf') },
+    toeicProof: { label: 'View TOEIC score report', href: 'documents/toeic-Oscar.pdf' },
     visionTitle: 'Three inseparable dimensions',
     vision: [
       { title: 'Business', desc: 'Align security with business priorities, compliance and decision-making.' },
@@ -379,7 +379,7 @@ export const content = {
           'Raised awareness and upskilled more than 100 students on OSINT topics',
         ],
         skills: ['OSINT', 'AI', 'Docker', 'IAM', 'Monitoring'],
-        link: { label: 'View the project', href: ghFile('video/Sentinel.mp4') },
+        link: { label: 'View the project', href: 'video/Sentinel.mp4' },
       },
       {
         period: 'August 2024 – January 2025',
@@ -426,7 +426,7 @@ export const content = {
         desc: 'Agricultural monitoring platform combining soil sensors, drone imagery and AI disease/pest detection. Presented at ETSIA.',
         tech: ['IoT', 'Drones', 'AI', 'Computer vision'],
         color: '#8B5CF6',
-        link: { label: 'View the project', href: ghFile('documents/WI_grow.pdf') },
+        link: { label: 'View the project', href: 'documents/WI_grow (1).pdf' },
       },
       {
         tag: 'Infra',
