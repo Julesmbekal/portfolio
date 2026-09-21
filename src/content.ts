@@ -31,7 +31,7 @@ const contactLinks = (phoneLabel: string): ContactLink[] => [
     icon: '💬',
     label: 'WhatsApp',
     val: 'Écrire sur WhatsApp',
-    href: 'https://wa.me/message/55RMWPSTXTGC',
+    href: 'https://wa.me/message/55RMWPSTXTGCM1',
   },
   {
     icon: 'in',
